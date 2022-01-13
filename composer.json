@@ -1,7 +1,7 @@
 {
-    "name": "laravel-api/dummy",
+    "name": "laravel-api/github",
     "description": "This is my package dummy",
-    "homepage": "https://github.com/laravapi/dummy",
+    "homepage": "https://github.com/laravapi/github",
     "license": "MIT",
     "authors": [
         {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelApi\\Dummy\\": "src"
+            "LaravelApi\\GitHub\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaravelApi\\Dummy\\Tests\\": "tests"
+            "LaravelApi\\GitHub\\Tests\\": "tests"
         }
     },
     "scripts": {
