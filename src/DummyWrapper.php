@@ -20,6 +20,6 @@ class DummyWrapper
 
     public function __call($name, $attributes)
     {
-        dump('API Call to ' . $name . ' with attributes ' . $attributes);
+        dump('API Call to ' . (new \ReflectionClass($this))->getShortName() . ' -> ' . $name);
     }
 }
