@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelApi\GitHub;
+namespace LaravelApi\Dummy;
 
-class GitHubWrapper
+class DummyWrapper
 {
     public function config()
     {
